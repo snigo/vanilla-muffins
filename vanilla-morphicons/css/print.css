@@ -1,0 +1,129 @@
+/* FILLED */
+
+.neat-icon.ni-print--filled div:nth-child(1) {
+  top: 12.5%;
+  left: 50%;
+  width: 50%;
+  height: 21.875%;
+  background: var(--color-primary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-print--filled div:nth-child(2) {
+  top: 37.5%;
+  left: 50%;
+  width: 81.25%;
+  height: 25%;
+  background: var(--color-primary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-bottom-width: 0;
+  border-top-left-radius: calc(var(--icon-size) / 8);
+  border-top-right-radius: calc(var(--icon-size) / 8);
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-print--filled div:nth-child(2)::before,
+.neat-icon.ni-print--outline div:nth-child(2)::before,
+.neat-icon.ni-print--duotone div:nth-child(2)::before {
+  content: '';
+  top: 100%;
+  left: calc(var(--icon-size) / -16);
+  width: 25%;
+  height: calc(var(--icon-size) / 16);
+  background: var(--color-primary);
+  border: none;
+}
+
+.neat-icon.ni-print--filled div:nth-child(2)::after,
+.neat-icon.ni-print--outline div:nth-child(2)::after,
+.neat-icon.ni-print--duotone div:nth-child(2)::after {
+  content: '';
+  top: 100%;
+  right: calc(var(--icon-size) / -16);
+  width: 25%;
+  height: calc(var(--icon-size) / 16);
+  background: var(--color-primary);
+  border: none;
+}
+
+.neat-icon.ni-print--filled div:nth-child(3) {
+  top: 50%;
+  left: 75%;
+  width: 6.25%;
+  height: 6.25%;
+  background: white;
+  border-radius: 50%;
+}
+
+.neat-icon.ni-print--filled div:nth-child(4),
+.neat-icon.ni-print--outline div:nth-child(4),
+.neat-icon.ni-print--duotone div:nth-child(4) {
+  top: 56.25%;
+  left: 50%;
+  width: 50%;
+  height: 31.25%;
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  transform: translateX(-50%);
+}
+
+/* OUTLINE */
+
+.neat-icon.ni-print--outline div:nth-child(1) {
+  top: 12.5%;
+  left: 50%;
+  width: 50%;
+  height: 31.25%;
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-print--outline div:nth-child(2) {
+  top: 37.5%;
+  left: 50%;
+  width: 81.25%;
+  height: 25%;
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-bottom-width: 0;
+  border-top-left-radius: calc(var(--icon-size) / 8);
+  border-top-right-radius: calc(var(--icon-size) / 8);
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-print--outline div:nth-child(3),
+.neat-icon.ni-print--duotone div:nth-child(3) {
+  top: 50%;
+  left: 75%;
+  width: 6.25%;
+  height: 6.25%;
+  background: var(--color-primary);
+  border-radius: 50%;
+}
+
+/* DUOTONE */
+
+.neat-icon.ni-print--duotone div:nth-child(1) {
+  top: 12.5%;
+  left: 50%;
+  width: 50%;
+  height: 31.25%;
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-print--duotone div:nth-child(2) {
+  top: 37.5%;
+  left: 50%;
+  width: 81.25%;
+  height: 25%;
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-bottom-width: 0;
+  border-top-left-radius: calc(var(--icon-size) / 8);
+  border-top-right-radius: calc(var(--icon-size) / 8);
+  transform: translateX(-50%);
+}

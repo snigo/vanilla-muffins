@@ -1,0 +1,114 @@
+
+body {
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.07);
+  border-bottom: 1px solid #888;
+  color: #fff;
+  padding-top: 1em;
+}
+
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+label {
+  margin-left: .5em;
+}
+
+.btn {
+  border: 1px solid #999;
+  border-radius: 5%;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 10px;
+  padding: 6px 15px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #333;
+}
+
+#stage {
+  flex-grow: 1;
+  position: relative;
+}
+
+.dancer {
+  background-color: #fff;
+  border-radius: 50%;
+  height: 15px;
+  position: absolute;
+  width: 15px;
+  transition: all .5s;
+}
+
+.tap-dancer {
+  animation: blinking-dancer .5s infinite;
+}
+
+.rainbow-dancer {
+  background: hsl(0, 100%, 65%);
+  animation: rainbow-dancer 1s infinite;
+}
+
+@keyframes blinking-dancer {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes rainbow-dancer {
+  0% {
+    background: hsl(0, 100%, 65%);
+  }
+
+  10% {
+    background: hsl(36, 100%, 65%);
+  }
+
+  20% {
+    background: hsl(72, 100%, 65%);
+  }
+
+  30% {
+    background: hsl(108, 100%, 65%);
+  }
+
+  40% {
+    background: hsl(144, 100%, 65%);
+  }
+
+  50% {
+    background: hsl(180, 100%, 65%);
+  }
+
+  60% {
+    background: hsl(216, 100%, 65%);
+  }
+
+  70% {
+    background: hsl(252, 100%, 65%);
+  }
+
+  80% {
+    background: hsl(288, 100%, 65%);
+  }
+
+  90% {
+    background: hsl(324, 100%, 65%);
+  }
+}

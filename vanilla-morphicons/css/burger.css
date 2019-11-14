@@ -1,0 +1,41 @@
+.neat-icon.ni-burger--filled div:nth-child(1),
+.neat-icon.ni-burger--outline div:nth-child(1),
+.neat-icon.ni-burger--duotone div:nth-child(1) {
+  top: 25%;
+  left: 50%;
+  width: 87.5%;
+  height: 6.25%;
+  transform: translate(-50%, -50%);
+  background: var(--color-primary);
+  border: none;
+  box-shadow: 0 calc(var(--icon-size) / 64) 0 var(--color-primary), 0 calc(var(--icon-size) / -64) 0 var(--color-primary);
+}
+
+.neat-icon.ni-burger--filled div:nth-child(2),
+.neat-icon.ni-burger--outline div:nth-child(2),
+.neat-icon.ni-burger--duotone div:nth-child(2),
+.neat-icon.ni-burger--filled div:nth-child(3),
+.neat-icon.ni-burger--outline div:nth-child(3),
+.neat-icon.ni-burger--duotone div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 6.25%;
+  transform: translate(-50%, -50%);
+  background: var(--color-primary);
+  border: none;
+  box-shadow: 0 calc(var(--icon-size) / 64) 0 var(--color-primary), 0 calc(var(--icon-size) / -64) 0 var(--color-primary);
+}
+
+.neat-icon.ni-burger--filled div:nth-child(4),
+.neat-icon.ni-burger--outline div:nth-child(4),
+.neat-icon.ni-burger--duotone div:nth-child(4) {
+  top: 75%;
+  left: 50%;
+  width: 87.5%;
+  height: 6.25%;
+  transform: translate(-50%, -50%);
+  background: var(--color-primary);
+  border: none;
+  box-shadow: 0 calc(var(--icon-size) / 64) 0 var(--color-primary), 0 calc(var(--icon-size) / -64) 0 var(--color-primary);
+}

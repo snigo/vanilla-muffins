@@ -1,0 +1,63 @@
+/* ALL */
+
+.neat-icon.ni-loader-dots-blinking--filled div:nth-child(1),
+.neat-icon.ni-loader-dots-blinking--outline div:nth-child(1),
+.neat-icon.ni-loader-dots-blinking--duotone div:nth-child(1),
+.neat-icon.ni-loader-dots-blinking--filled div:nth-child(4),
+.neat-icon.ni-loader-dots-blinking--outline div:nth-child(4),
+.neat-icon.ni-loader-dots-blinking--duotone div:nth-child(4) {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  transform: translate(-50%, -50%);
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+  animation: dots-blinking 1.2s linear infinite;
+  animation-delay: .2s;
+}
+
+.neat-icon.ni-loader-dots-blinking--filled div:nth-child(2),
+.neat-icon.ni-loader-dots-blinking--outline div:nth-child(2),
+.neat-icon.ni-loader-dots-blinking--duotone div:nth-child(2) {
+  top: 50%;
+  left: 25%;
+  width: 12.5%;
+  height: 12.5%;
+  transform: translate(-50%, -50%);
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+  animation: dots-blinking 1.2s linear infinite;
+}
+
+.neat-icon.ni-loader-dots-blinking--filled div:nth-child(3),
+.neat-icon.ni-loader-dots-blinking--outline div:nth-child(3),
+.neat-icon.ni-loader-dots-blinking--duotone div:nth-child(3) {
+  top: 50%;
+  left: 75%;
+  width: 12.5%;
+  height: 12.5%;
+  transform: translate(-50%, -50%);
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+  animation: dots-blinking 1.2s linear infinite;
+  animation-delay: .4s;
+}
+
+@keyframes dots-blinking {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1, 1);
+  }
+  50% {
+    opacity: .25;
+    transform: translate(-50%, -50%) scale(.75, .75);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1, 1);
+  }
+}

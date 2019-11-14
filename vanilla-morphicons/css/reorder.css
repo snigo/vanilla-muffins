@@ -1,0 +1,53 @@
+/* ALL */
+
+.neat-icon.ni-reorder--filled div:nth-child(1),
+.neat-icon.ni-reorder--outline div:nth-child(1),
+.neat-icon.ni-reorder--duotone div:nth-child(1) {
+  top: 18.75%;
+  left: 50%;
+  width: 87.5%;
+  height: 6.25%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  border: none;
+  box-shadow: 0 calc(var(--icon-size) / 64) 0 var(--color-primary), 0 calc(var(--icon-size) / -64) 0 var(--color-primary);
+}
+
+.neat-icon.ni-reorder--filled div:nth-child(2),
+.neat-icon.ni-reorder--outline div:nth-child(2),
+.neat-icon.ni-reorder--duotone div:nth-child(2) {
+  top: 37.5%;
+  left: 50%;
+  width: 87.5%;
+  height: 6.25%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  border: none;
+  box-shadow: 0 calc(var(--icon-size) / 64) 0 var(--color-primary), 0 calc(var(--icon-size) / -64) 0 var(--color-primary);
+}
+
+.neat-icon.ni-reorder--filled div:nth-child(3),
+.neat-icon.ni-reorder--outline div:nth-child(3),
+.neat-icon.ni-reorder--duotone div:nth-child(3) {
+  top: 56.25%;
+  left: 50%;
+  width: 87.5%;
+  height: 6.25%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  border: none;
+  box-shadow: 0 calc(var(--icon-size) / 64) 0 var(--color-primary), 0 calc(var(--icon-size) / -64) 0 var(--color-primary);
+}
+
+.neat-icon.ni-reorder--filled div:nth-child(4),
+.neat-icon.ni-reorder--outline div:nth-child(4),
+.neat-icon.ni-reorder--duotone div:nth-child(4) {
+  top: 75%;
+  left: 50%;
+  width: 87.5%;
+  height: 6.25%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  border: none;
+  box-shadow: 0 calc(var(--icon-size) / 64) 0 var(--color-primary), 0 calc(var(--icon-size) / -64) 0 var(--color-primary);
+}

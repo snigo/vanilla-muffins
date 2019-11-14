@@ -1,0 +1,40 @@
+/* ALL */
+
+.neat-icon.ni-close--filled div:nth-child(1),
+.neat-icon.ni-close--outline div:nth-child(1),
+.neat-icon.ni-close--duotone div:nth-child(1),
+.neat-icon.ni-close--filled div:nth-child(4),
+.neat-icon.ni-close--outline div:nth-child(4),
+.neat-icon.ni-close--duotone div:nth-child(4) {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  background: transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.neat-icon.ni-close--filled div:nth-child(2),
+.neat-icon.ni-close--outline div:nth-child(2),
+.neat-icon.ni-close--duotone div:nth-child(2) {
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 6.25%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: var(--color-primary);
+  border: none;
+}
+
+.neat-icon.ni-close--filled div:nth-child(3),
+.neat-icon.ni-close--outline div:nth-child(3),
+.neat-icon.ni-close--duotone div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 6.25%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background: var(--color-primary);
+  border: none;
+}

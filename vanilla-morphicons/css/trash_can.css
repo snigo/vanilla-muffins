@@ -1,0 +1,79 @@
+/* FILLED */
+
+.neat-icon.ni-trash-can--filled div:nth-child(1),
+.neat-icon.ni-trash-can--outline div:nth-child(1),
+.neat-icon.ni-trash-can--duotone div:nth-child(1) {
+  top: 12.5%;
+  left: 50%;
+  width: 31.25%;
+  height: 3%;
+  background: var(--color-primary);
+  border: none;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-trash-can--filled div:nth-child(2),
+.neat-icon.ni-trash-can--outline div:nth-child(2),
+.neat-icon.ni-trash-can--duotone div:nth-child(2) {
+  top: 15.5%;
+  left: 50%;
+  width: 56.25%;
+  height: 6.25%;
+  background: var(--color-primary);
+  border: none;
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-trash-can--filled div:nth-child(3) {
+  top: 25%;
+  left: 50%;
+  width: 50%;
+  height: 62.5%;
+  background: var(--color-primary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-bottom-left-radius: calc(var(--icon-size) / 16);
+  border-bottom-right-radius: calc(var(--icon-size) / 16);
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-trash-can--filled div:nth-child(4),
+.neat-icon.ni-trash-can--outline div:nth-child(4),
+.neat-icon.ni-trash-can--duotone div:nth-child(4) {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  background: transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* OUTLINE */
+
+.neat-icon.ni-trash-can--outline div:nth-child(3) {
+  top: 25%;
+  left: 50%;
+  width: 50%;
+  height: 62.5%;
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-bottom-left-radius: calc(var(--icon-size) / 16);
+  border-bottom-right-radius: calc(var(--icon-size) / 16);
+  transform: translateX(-50%);
+}
+
+/* DUOTONE */
+
+.neat-icon.ni-trash-can--duotone div:nth-child(3) {
+  top: 25%;
+  left: 50%;
+  width: 50%;
+  height: 62.5%;
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-bottom-left-radius: calc(var(--icon-size) / 16);
+  border-bottom-right-radius: calc(var(--icon-size) / 16);
+  transform: translateX(-50%);
+}

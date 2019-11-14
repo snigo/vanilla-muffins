@@ -1,0 +1,30 @@
+/* ALL */
+
+.neat-icon.ni-search--filled div:nth-child(1),
+.neat-icon.ni-search--outline div:nth-child(1),
+.neat-icon.ni-search--duotone div:nth-child(1) {
+  top: 37.5%;
+  left: 37.5%;
+  width: 62.5%;
+  height: 62.5%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 50%;
+}
+
+.neat-icon.ni-search--filled div:nth-child(4),
+.neat-icon.ni-search--outline div:nth-child(4),
+.neat-icon.ni-search--duotone div:nth-child(4) {
+  top: 57.5%;
+  left: 57.5%;
+  width: 43.75%;
+  height: 6.25%;
+  transform: translate(-50%, -50%);
+  background: var(--color-primary);
+  border: none;
+  border-top-left-radius: calc(var(--icon-size) / 16);
+  border-bottom-left-radius: calc(var(--icon-size) / 16);
+  transform-origin: center left;
+  transform: rotate(45deg);
+}

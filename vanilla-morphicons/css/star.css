@@ -1,0 +1,99 @@
+/* FILLED */
+
+.neat-icon.ni-star--filled div:nth-child(1),
+.neat-icon.ni-star--outline div:nth-child(1),
+.neat-icon.ni-star--duotone div:nth-child(1),
+.neat-icon.ni-star--filled div:nth-child(2),
+.neat-icon.ni-star--outline div:nth-child(2),
+.neat-icon.ni-star--duotone div:nth-child(2),
+.neat-icon.ni-star--filled div:nth-child(4),
+.neat-icon.ni-star--outline div:nth-child(4),
+.neat-icon.ni-star--duotone div:nth-child(4) {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  background: transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.neat-icon.ni-star--filled div:nth-child(3),
+.neat-icon.ni-star--outline div:nth-child(3),
+.neat-icon.ni-star--duotone div:nth-child(3) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  z-index: 2;
+}
+
+.neat-icon.ni-star--filled div:nth-child(3)::after,
+.neat-icon.ni-star--outline div:nth-child(3)::after,
+.neat-icon.ni-star--duotone div:nth-child(3)::after {
+  content: '\2605';
+  top: 50%;
+  left: 50%;
+  color: var(--color-primary);
+  font-size: calc(var(--icon-size) / 1.25);
+  line-height: calc(var(--icon-size) / 1.25);
+  transform: translate(-50%, -50%);
+}
+
+/* OUTLINE */
+
+.neat-icon.ni-star--outline div:nth-child(3) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  z-index: 2;
+}
+
+.neat-icon.ni-star--outline div:nth-child(3)::after {
+  content: '\2606';
+  top: 50%;
+  left: 50%;
+  color: var(--color-primary);
+  font-size: calc(var(--icon-size) / 1.25);
+  line-height: calc(var(--icon-size) / 1.25);
+  transform: translate(-50%, -50%);
+}
+
+/* DUOTONE */
+
+.neat-icon.ni-star--duotone div:nth-child(3) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  z-index: 2;
+}
+
+.neat-icon.ni-star--duotone div:nth-child(3)::before {
+  content: '\2605';
+  top: 50%;
+  left: 50%;
+  color: var(--color-secondary);
+  font-size: calc(var(--icon-size) / 1.25);
+  line-height: calc(var(--icon-size) / 1.25);
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.neat-icon.ni-star--duotone div:nth-child(3)::after {
+  content: '\2606';
+  top: 50%;
+  left: 50%;
+  color: var(--color-primary);
+  font-size: calc(var(--icon-size) / 1.25);
+  line-height: calc(var(--icon-size) / 1.25);
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}

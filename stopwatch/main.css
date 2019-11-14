@@ -1,0 +1,135 @@
+/***** Colors *****
+
+    red: #F64848;
+    links: #00ABE7;
+    green: #77B06D;
+    background: #FCBF49;
+    orange: #F77F00;
+    black: #3A3A3A;
+
+*******************/
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FCBF49;
+}
+
+.app-container {
+    position: fixed;
+    width: 50vw;
+    max-width: 720px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    overflow-y: scroll;
+}
+
+header {
+    height: 56px;
+    text-align: center;
+}
+header h1 {
+    color: #3A3A3A;
+    line-height: 56px;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35%;
+    max-height: 720px;
+    font-size: 6em;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.clock span {
+    margin: 4px;
+}
+
+.clock-controls {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-size: 14pt;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    height: 36px;
+    min-width: 64px;
+    margin: 0 16px;
+    width: 25%;
+    cursor: pointer;
+    box-shadow: 0 8px 4px -6px rgba(0, 0, 0, .15);
+    border-radius: 6px;
+    background: white;
+    color: #00ABE7;
+}
+
+button:hover {
+    transform: translate(0, -1.5px);
+    transition: all .3s;
+    box-shadow: 0 9px 4px -6px rgba(0, 0, 0, .15);
+}
+
+#startBtn {
+    background: #B7F0AD;
+    color: #3A3A3A;
+}
+
+.clock-laps {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    text-align: center;
+    color: #3A3A3A;
+    font-size: 1.15rem;
+    line-height: 1.33;
+}
+
+.laps-list {
+    width: 50%;
+}
+
+.laps-list li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    border-top: .5px dotted rgba(0, 0, 0, .15);
+}
+
+.lap-number {
+    color: rgba(0, 0, 0, .15);
+    font-size: .75rem;
+    margin-right: 2em;
+}
+
+.best-lap {
+    color: #77B06D;
+}
+.worst-lap {
+    color: #F64848;
+}
+
+@media screen and (max-width: 800px) {
+    .app-container {
+        width: 95vw;
+    }
+}

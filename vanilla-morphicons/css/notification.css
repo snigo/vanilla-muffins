@@ -1,0 +1,220 @@
+/* FILLED */
+
+.neat-icon.ni-notification--filled div:nth-child(1),
+.neat-icon.ni-notification--outline div:nth-child(1),
+.neat-icon.ni-notification--duotone div:nth-child(1) {
+  top: 6.25%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.neat-icon.ni-notification--filled div:nth-child(2),
+.neat-icon.ni-notification--outline div:nth-child(2),
+.neat-icon.ni-notification--duotone div:nth-child(2) {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: none;
+}
+
+.neat-icon.ni-notification--filled div:nth-child(3) {
+  top: 31.25%;
+  left: 50%;
+  width: 43.75%;
+  height: 28.25%;
+  background: var(--color-primary);
+  border: calc(var(--icon-size) / 16) solid;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-bottom-width: 0;
+  border-left-color: var(--color-primary);
+  border-right-color: var(--color-primary);
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.neat-icon.ni-notification--filled div:nth-child(3)::before {
+  content: '';
+  top: -100%;
+  left: 50%;
+  width: calc(100% + var(--icon-size) / 8);
+  height: calc(50% + var(--icon-size) / 8);
+  background: var(--color-primary);
+  border: calc(var(--icon-size) / 16) solid;
+  border-top-color: var(--color-primary);
+  border-bottom-color: transparent;
+  border-bottom-width: 0;
+  border-left-color: var(--color-primary);
+  border-right-color: var(--color-primary);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-notification--filled div:nth-child(3)::after {
+  content: '';
+  top: 66%;
+  left: 50%;
+  width: calc(175% + var(--icon-size) / 8);
+  height: calc(75% + var(--icon-size) / 8);
+  background: var(--color-primary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-notification--filled div:nth-child(4) {
+  top: 65.5%;
+  left: 50%;
+  width: 25%;
+  height: 25%;
+  background: var(--color-primary);
+  border: calc(var(--icon-size) / 16) solid;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: var(--color-primary);
+  border-right-color: var(--color-primary);
+  border-radius: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: 1;
+}
+
+/* OUTLINE */
+
+.neat-icon.ni-notification--outline div:nth-child(3) {
+  top: 31.25%;
+  left: 50%;
+  width: 43.75%;
+  height: 28.25%;
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-bottom-width: 0;
+  border-left-color: var(--color-primary);
+  border-right-color: var(--color-primary);
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.neat-icon.ni-notification--outline div:nth-child(3)::before {
+  content: '';
+  top: -100%;
+  left: 50%;
+  width: calc(100% + var(--icon-size) / 8);
+  height: calc(50% + var(--icon-size) / 8);
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid;
+  border-top-color: var(--color-primary);
+  border-bottom-color: transparent;
+  border-bottom-width: 0;
+  border-left-color: var(--color-primary);
+  border-right-color: var(--color-primary);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-notification--outline div:nth-child(3)::after {
+  content: '';
+  top: 66%;
+  left: 50%;
+  width: calc(175% + var(--icon-size) / 8);
+  height: calc(75% + var(--icon-size) / 8);
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-notification--outline div:nth-child(4) {
+  top: 65.5%;
+  left: 50%;
+  width: 25%;
+  height: 25%;
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: var(--color-primary);
+  border-right-color: var(--color-primary);
+  border-radius: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: 1;
+}
+
+/* DUOTONE */
+
+.neat-icon.ni-notification--duotone div:nth-child(3) {
+  top: 31.25%;
+  left: 50%;
+  width: 43.75%;
+  height: 28.25%;
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-bottom-width: 0;
+  border-left-color: var(--color-primary);
+  border-right-color: var(--color-primary);
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.neat-icon.ni-notification--duotone div:nth-child(3)::before {
+  content: '';
+  top: -100%;
+  left: 50%;
+  width: calc(100% + var(--icon-size) / 8);
+  height: calc(50% + var(--icon-size) / 8);
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid;
+  border-top-color: var(--color-primary);
+  border-bottom-color: transparent;
+  border-bottom-width: 0;
+  border-left-color: var(--color-primary);
+  border-right-color: var(--color-primary);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-notification--duotone div:nth-child(3)::after {
+  content: '';
+  top: 66%;
+  left: 50%;
+  width: calc(175% + var(--icon-size) / 8);
+  height: calc(75% + var(--icon-size) / 8);
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.neat-icon.ni-notification--duotone div:nth-child(4) {
+  top: 65.5%;
+  left: 50%;
+  width: 25%;
+  height: 25%;
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: var(--color-primary);
+  border-right-color: var(--color-primary);
+  border-radius: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: 1;
+}

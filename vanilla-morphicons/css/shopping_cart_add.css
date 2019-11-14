@@ -1,0 +1,115 @@
+.neat-icon.ni-shopping-cart-add--filled,
+.neat-icon.ni-shopping-cart-add--outline,
+.neat-icon.ni-shopping-cart-add--duotone {
+  perspective: calc(var(--icon-size) / 2);
+}
+
+/* ALL */
+
+/* Basket handle part 1 */
+.neat-icon.ni-shopping-cart-add--filled div:nth-child(1),
+.neat-icon.ni-shopping-cart-add--outline div:nth-child(1),
+.neat-icon.ni-shopping-cart-add--duotone div:nth-child(1) {
+  top: 16%;
+  left: 12.5%;
+  width: 12.5%;
+  height: 6.25%;
+  background: var(--color-primary);
+}
+
+/* Plus sign */
+.neat-icon.ni-shopping-cart-add--filled div:nth-child(1)::after,
+.neat-icon.ni-shopping-cart-add--outline div:nth-child(1)::after,
+.neat-icon.ni-shopping-cart-add--duotone div:nth-child(1)::after {
+  content: '+';
+  top: -275%;
+  left: 225%;
+  font-family: 'Inconsolata', monospace;
+  font-size: calc(var(--icon-size) / 2);
+  color: var(--color-primary);
+}
+
+/* Cart base part 1 */
+.neat-icon.ni-shopping-cart-add--filled div:nth-child(2),
+.neat-icon.ni-shopping-cart-add--outline div:nth-child(2),
+.neat-icon.ni-shopping-cart-add--duotone div:nth-child(2) {
+  top: 66%;
+  left: 50%;
+  width: 62.5%;
+  height: 6.25%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  border-top-left-radius: calc(var(--icon-size) / 16);
+  border-bottom-left-radius: calc(var(--icon-size) / 16);
+}
+
+/* Cart base part 2 */
+.neat-icon.ni-shopping-cart-add--filled div:nth-child(2)::before,
+.neat-icon.ni-shopping-cart-add--outline div:nth-child(2)::before,
+.neat-icon.ni-shopping-cart-add--duotone div:nth-child(2)::before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: calc(var(--icon-size) / 4);
+  height: calc(var(--icon-size) / 16);
+  transform-origin: center left;
+  transform: rotate(-45deg) translateY(20%);
+  background: var(--color-primary);
+  border-top-left-radius: calc(var(--icon-size) / 16);
+  border-bottom-left-radius: calc(var(--icon-size) / 16);
+}
+
+/* Basket */
+.neat-icon.ni-shopping-cart-add--filled div:nth-child(3),
+.neat-icon.ni-shopping-cart-add--outline div:nth-child(3),
+.neat-icon.ni-shopping-cart-add--duotone div:nth-child(3) {
+  top: 43.75%;
+  left: 50%;
+  width: 43.75%;
+  height: 37.5%;
+  transform: translate(-40%, -50%) rotate3d(1, 0, 0, -45deg);
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-top: none;
+  border-radius: calc(var(--icon-size) / 16);
+  box-shadow: 0 calc(var(--icon-size) / -16) 0 var(--color-primary) inset;
+}
+
+/* Basket handle part 2 */
+.neat-icon.ni-shopping-cart-add--filled div:nth-child(3)::before,
+.neat-icon.ni-shopping-cart-add--outline div:nth-child(3)::before,
+.neat-icon.ni-shopping-cart-add--duotone div:nth-child(3)::before {
+  content: '';
+  top: 0;
+  left: -40%;
+  width: calc(var(--icon-size) / 8);
+  height: calc(var(--icon-size) / 20);
+  transform-origin: top right;
+  transform: translateY(calc(var(--icon-size) / 16)) rotate(70deg);
+  background:var(--color-primary);
+  border-radius: calc(var(--icon-size) / 16);
+  transition: none;
+}
+
+/* Wheels */
+.neat-icon.ni-shopping-cart-add--filled div:nth-child(4),
+.neat-icon.ni-shopping-cart-add--outline div:nth-child(4),
+.neat-icon.ni-shopping-cart-add--duotone div:nth-child(4) {
+  top: 75%;
+  left: 18.75%;
+  width: 12.5%;
+  height: 12.5%;
+  background: var(--color-primary);
+  border-radius: 50%;
+}
+.neat-icon.ni-shopping-cart-add--filled div:nth-child(4)::after,
+.neat-icon.ni-shopping-cart-add--outline div:nth-child(4)::after,
+.neat-icon.ni-shopping-cart-add--duotone div:nth-child(4)::after {
+  content: '';
+  top: 0;
+  left: 400%;
+  width: calc(var(--icon-size) / 8);
+  height: calc(var(--icon-size) / 8);
+  background: var(--color-primary);
+  border-radius: 50%;
+}

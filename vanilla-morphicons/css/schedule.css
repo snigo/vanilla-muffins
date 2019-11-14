@@ -1,0 +1,72 @@
+/* Minute arrow */
+.neat-icon.ni-schedule--filled div:nth-child(1),
+.neat-icon.ni-schedule--outline div:nth-child(1),
+.neat-icon.ni-schedule--duotone div:nth-child(1) {
+  top: 50%;
+  left: 50%;
+  width: 28%;
+  height: calc(var(--icon-size) / 16);;
+  background: var(--color-primary);
+  border: none;
+  border-radius: 0;
+  transform-origin: center left;
+  transform: rotate(-90deg);
+  z-index: 2;
+}
+
+/* Empty dot */
+.neat-icon.ni-schedule--filled div:nth-child(2),
+.neat-icon.ni-schedule--outline div:nth-child(2),
+.neat-icon.ni-schedule--duotone div:nth-child(2) {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  background: transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Circle body */
+.neat-icon.ni-schedule--filled div:nth-child(3),
+.neat-icon.ni-schedule--outline div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 75%;
+  height: 75%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Hour arrow */
+.neat-icon.ni-schedule--filled div:nth-child(4),
+.neat-icon.ni-schedule--outline div:nth-child(4),
+.neat-icon.ni-schedule--duotone div:nth-child(4) {
+  top: 50%;
+  left: 50%;
+  width: 21.5%;
+  height: calc(var(--icon-size) / 16);;
+  background: var(--color-primary);
+  border: none;
+  border-radius: 0;
+  transform-origin: center left;
+  transform: rotate(24deg);
+  z-index: 2;
+}
+
+/* DUOTONE */
+
+.neat-icon.ni-schedule--duotone div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 75%;
+  height: 75%;
+  transform: translate(-50%, -50%);
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 50%;
+  z-index: 1;
+}

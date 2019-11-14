@@ -1,0 +1,43 @@
+/* ALL */
+
+.neat-icon.ni-dots-horizontal--filled div:nth-child(1),
+.neat-icon.ni-dots-horizontal--outline div:nth-child(1),
+.neat-icon.ni-dots-horizontal--duotone div:nth-child(1),
+.neat-icon.ni-dots-horizontal--filled div:nth-child(4),
+.neat-icon.ni-dots-horizontal--outline div:nth-child(4),
+.neat-icon.ni-dots-horizontal--duotone div:nth-child(4) {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  transform: translate(-50%, -50%);
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+}
+
+.neat-icon.ni-dots-horizontal--filled div:nth-child(2),
+.neat-icon.ni-dots-horizontal--outline div:nth-child(2),
+.neat-icon.ni-dots-horizontal--duotone div:nth-child(2) {
+  top: 50%;
+  left: 25%;
+  width: 12.5%;
+  height: 12.5%;
+  transform: translate(-50%, -50%);
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+}
+
+.neat-icon.ni-dots-horizontal--filled div:nth-child(3),
+.neat-icon.ni-dots-horizontal--outline div:nth-child(3),
+.neat-icon.ni-dots-horizontal--duotone div:nth-child(3) {
+  top: 50%;
+  left: 75%;
+  width: 12.5%;
+  height: 12.5%;
+  transform: translate(-50%, -50%);
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+}

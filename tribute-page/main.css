@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,900');
+
+:root {
+  --grey: hsl(0, 0%, 65%);
+  --accent: rgb(49, 201, 211);
+  --black: #2a2a2a;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1em;
+  color: var(--black);
+  line-height: 1.45;
+  letter-spacing: -.01em;
+}
+
+#main {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+h1 {
+  position: relative;
+  margin: 56px 0 0 0;
+  font-size: 2.5em;
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -.025em;
+}
+
+#title::after {
+  content: '';
+  position: absolute;
+  background: var(--accent);
+  top: -.75em;
+  left: 0;
+  width: 100%;
+  height: .35em;
+}
+
+h3 {
+  margin: 28px 0 0 0;
+  font-size: 1.45em;
+  position: relative;
+}
+
+h3::before {
+  content: '';
+  position: absolute;
+  background: var(--accent);
+  top: 14px;
+  left: -1.5em;
+  width: .55em;
+  height: .35em; 
+}
+
+a, a:visited {
+  color: var(--black);
+}
+
+a:hover, a:focus {
+  color: var(--accent);
+}
+
+.img-container {
+  margin: 56px -10vw 0 -10vw;
+  position: relative;
+  padding-bottom: 75%;
+}
+
+.img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+figcaption {
+  font-size: .81em;
+  color: var(--grey);
+  margin-top: .85em;
+  line-height: 1.4;
+  text-align: center;
+}
+
+figcaption a, figcaption a:visited {
+  color: var(--grey);
+}
+
+figcaption a:hover, figcaption a:focus {
+  color: var(--accent);
+}
+
+p {
+  margin-top: 56px;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  padding-left: 1em;
+  list-style: none;
+}
+
+.list-paragraph {
+  margin-top: 0;
+}
+
+blockquote {
+  margin-left: 0;
+  width: 100%;
+  font-size: 21px;
+  line-height: inherit;
+  padding-left: 40px;
+  border-left: 2px solid var(--accent);
+}
+
+cite {
+  font-size: 1.15em;
+  margin-left: 4.5em;
+  position: relative;
+}
+
+cite::before {
+  position: absolute;
+  content: '-';
+  color: var(--accent);
+  font-weight: 900;
+  left: -1em;
+}
+
+#articleFooter {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Media queries */
+@media screen and (max-width: 864px) {
+  body {
+    font-size: .89em;
+  }
+  #main {
+    padding: 0 5%;
+  }
+  blockquote {
+    font-size: 1.25em;
+  }
+  cite {
+    font-size: .95em;
+  }
+}

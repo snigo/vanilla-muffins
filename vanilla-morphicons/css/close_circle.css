@@ -1,0 +1,99 @@
+/* FILLED */
+
+.neat-icon.ni-close-circle--filled div:nth-child(1) {
+  top: 50%;
+  left: 50%;
+  width: 62.5%;
+  height: 6.25%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: white;
+  border: none;
+  z-index: 2;
+}
+
+.neat-icon.ni-close-circle--filled div:nth-child(2),
+.neat-icon.ni-close-circle--outline div:nth-child(2),
+.neat-icon.ni-close-circle--duotone div:nth-child(2) {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  background: transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.neat-icon.ni-close-circle--filled div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 87.5%;
+  background: var(--color-primary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.neat-icon.ni-close-circle--filled div:nth-child(4) {
+  top: 50%;
+  left: 50%;
+  width: 62.5%;
+  height: 6.25%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background: white;
+  border: none;
+  z-index: 2;
+}
+
+/* OUTLINE */
+
+.neat-icon.ni-close-circle--outline div:nth-child(1),
+.neat-icon.ni-close-circle--duotone div:nth-child(1) {
+  top: 50%;
+  left: 50%;
+  width: 62.5%;
+  height: 6.25%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: var(--color-primary);
+  border: none;
+  z-index: 2;
+}
+
+.neat-icon.ni-close-circle--outline div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 87.5%;
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.neat-icon.ni-close-circle--outline div:nth-child(4),
+.neat-icon.ni-close-circle--duotone div:nth-child(4) {
+  top: 50%;
+  left: 50%;
+  width: 62.5%;
+  height: 6.25%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background: var(--color-primary);
+  border: none;
+  z-index: 2;
+}
+
+/* DUOTONE */
+
+.neat-icon.ni-close-circle--duotone div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 87.5%;
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}

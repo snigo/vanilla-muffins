@@ -1,0 +1,53 @@
+/* ALL */
+
+.neat-icon.ni-unfold-more--filled div:nth-child(1),
+.neat-icon.ni-unfold-more--outline div:nth-child(1),
+.neat-icon.ni-unfold-more--duotone div:nth-child(1) {
+  top: 75%;
+  left: 25%;
+  width: 25%;
+  height: 6.25%;
+  transform-origin: bottom right;
+  transform: rotate(45deg);
+  background: var(--color-primary);
+  border: none;
+}
+
+.neat-icon.ni-unfold-more--filled div:nth-child(2),
+.neat-icon.ni-unfold-more--outline div:nth-child(2),
+.neat-icon.ni-unfold-more--duotone div:nth-child(2) {
+  top: 75%;
+  left: 50%;
+  width: 25%;
+  height: 6.25%;
+  transform-origin: bottom left;
+  transform: rotate(-45deg);
+  background: var(--color-primary);
+  border: none;
+}
+
+.neat-icon.ni-unfold-more--filled div:nth-child(3),
+.neat-icon.ni-unfold-more--outline div:nth-child(3),
+.neat-icon.ni-unfold-more--duotone div:nth-child(3) {
+  top: 18.75%;
+  left: 50%;
+  width: 25%;
+  height: 6.25%;
+  transform-origin: top left;
+  transform: rotate(45deg);
+  background: var(--color-primary);
+  border: none;
+}
+
+.neat-icon.ni-unfold-more--filled div:nth-child(4),
+.neat-icon.ni-unfold-more--outline div:nth-child(4),
+.neat-icon.ni-unfold-more--duotone div:nth-child(4) {
+  top: 18.75%;
+  left: 25%;
+  width: 25%;
+  height: 6.25%;
+  transform-origin: top right;
+  transform: rotate(-45deg);
+  background: var(--color-primary);
+  border: none;
+}

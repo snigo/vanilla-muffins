@@ -1,0 +1,127 @@
+/***** Colors *****
+
+    missed: #D62828;
+    pressed: #00ABE7;
+    found: #B7F0AD;
+    background: #FCBF49;
+    tiles: #F77F00;
+
+*******************/
+
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FCBF49;
+    transition: background .15s;
+}
+
+.game-container {
+    position: fixed;
+    width: 50vw;
+    max-width: 720px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    overflow-y: scroll;
+    padding-top: 56px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 1%;
+    padding: 1%;
+    width: 100%;
+    height: 50vw;
+    max-height: 720px;
+    background: white;
+    border-radius: 6px;
+}
+
+.cell {
+    border-radius: 6px;
+}
+
+.cell-number {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 4rem;
+    background: #F77F00;
+    border: none;
+    color: rgba(0, 0, 0, .35);
+    transform: rotateX(180deg);
+    transition: all .5s;
+}
+
+.open {
+    transform: rotateX(0deg);
+    background: #00ABE7;
+    transition: all .5s;
+}
+
+.missed {
+    background: #D62828;
+    transition: all .5s;
+}
+
+.found {
+    background: #B7F0AD;
+    transition: all .5s;
+}
+
+.cell-number:hover {
+    cursor: pointer;
+    background: #FD8706;
+}
+
+.open:hover {
+    cursor: default;
+    background: #08B4EF;
+}
+
+.missed:hover {
+    background: #DB2F2F;
+    cursor: default;
+}
+
+.found:hover {
+    background: #BEF8D6;
+    transition: all .5s;
+}
+
+.controls {
+    padding: 20px 0;
+    text-align: center;
+    color: #2E2E2E;
+    line-height: 1.33;
+    font-size: 1.15rem;
+}
+
+#boardMessage a {
+    color: #009BD7;
+}
+#boardMessage a:hover {
+    color: #00ABE7;
+}
+
+@media screen and (max-width: 800px) {
+    .game-container {
+        width: 95vw;
+    }
+    .board {
+        height: 95vw;
+    }
+}

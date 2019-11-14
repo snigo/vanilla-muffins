@@ -1,0 +1,30 @@
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Sub Class Dance Party</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="node_modules/jquery/dist/jquery.min.js" defer></script>
+    <script src="scripts/stage.js" defer></script>
+  </head>
+
+  <body>
+    <header id="header">
+      <div>
+        <span>Add dancers</span>
+        <div class="btn" id="regular" onclick="new Dancer()">regular</div>
+        <div class="btn" id="tapper" onclick="new TapDancer()">tapper</div>
+        <div class="btn" id="rainbow" onclick="new RainbowDancer()">rainbow</div>
+      </div>
+      <div>
+        <span>Move them!</span>
+        <div class="btn" id="move-btn" onclick="stage.moveAll()">move</div>
+        <div class="btn" id="rest-btn" onclick="stage.restAll()">rest</div>
+        <div class="btn" id="stop-btn" onclick="stage.stopAll()">stop</div>
+        <input type="checkbox" id="follow-mouse" onchange="stage.toggleMouseFollow()" /><label for="follow-mouse">zombie mode!</label>
+      </div>
+    </header>
+    <div id="stage"></div>
+  </body>
+
+</html>

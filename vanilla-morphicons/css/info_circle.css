@@ -1,0 +1,77 @@
+/* FILLED */
+
+.neat-icon.ni-info-circle--filled div:nth-child(1),
+.neat-icon.ni-info-circle--filled div:nth-child(2),
+.neat-icon.ni-info-circle--filled div:nth-child(4),
+.neat-icon.ni-info-circle--outline div:nth-child(1),
+.neat-icon.ni-info-circle--outline div:nth-child(2),
+.neat-icon.ni-info-circle--outline div:nth-child(4),
+.neat-icon.ni-info-circle--duotone div:nth-child(1),
+.neat-icon.ni-info-circle--duotone div:nth-child(2),
+.neat-icon.ni-info-circle--duotone div:nth-child(4) {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: none;
+}
+
+.neat-icon.ni-info-circle--filled div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 87.5%;
+  transform: translate(-50%, -50%);
+  background: var(--color-primary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 50%;
+}
+
+.neat-icon.ni-info-circle--filled div:nth-child(3)::after {
+  content: '?';
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: calc(var(--icon-size) / 1.5);
+  font-weight: 700;
+  transform: translate(-50%, -50%);
+}
+
+/* OUTLINE */
+
+.neat-icon.ni-info-circle--outline div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 87.5%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 50%;
+}
+
+.neat-icon.ni-info-circle--outline div:nth-child(3)::after,
+.neat-icon.ni-info-circle--duotone div:nth-child(3)::after {
+  content: '?';
+  top: 50%;
+  left: 50%;
+  color: var(--color-primary);
+  font-size: calc(var(--icon-size) / 1.5);
+  font-weight: 700;
+  transform: translate(-50%, -50%);
+}
+
+/* DUOTONE */
+
+.neat-icon.ni-info-circle--duotone div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 87.5%;
+  transform: translate(-50%, -50%);
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 50%;
+}

@@ -1,0 +1,119 @@
+@import './user_account_square.css';
+@import './user_account_circle.css';
+@import './user_account.css';
+@import './shopping_cart.css';
+@import './shopping_cart_add.css';
+@import './credit_card.css';
+@import './alarm_clock.css';
+@import './alarm_clock_add.css';
+@import './alarm_clock_off.css';
+@import './alarn_clock_on.css';
+@import './schedule.css';
+@import './message_blank.css';
+@import './message_comment.css';
+@import './message_attention.css';
+@import './info_circle.css';
+@import './copyright_circle.css';
+@import './problem_report.css';
+@import './problem_warning.css';
+@import './notification.css';
+@import './dialpad.css';
+@import './email.css';
+@import './arrow_left.css';
+@import './arrow_right.css';
+@import './arrow_up.css';
+@import './arrow_down.css';
+@import './arrow_square_left.css';
+@import './arrow_square_right.css';
+@import './arrow_square_up.css';
+@import './arrow_square_down.css';
+@import './chevron_up.css';
+@import './chevron_down.css';
+@import './chevron_left.css';
+@import './chevron_right.css';
+@import './redo.css';
+@import './undo.css';
+@import './forward.css';
+@import './unfold_less.css';
+@import './unfold_more.css';
+@import './caret_up.css';
+@import './caret_down.css';
+@import './caret_left.css';
+@import './caret_right.css';
+@import './reverse.css';
+@import './code.css';
+@import './burger.css';
+@import './drawer_left.css';
+@import './drawer_right.css';
+@import './bookmark.css';
+@import './reload.css';
+@import './success.css';
+@import './success_circle.css';
+@import './success_square.css';
+@import './trash_can.css';
+@import './drag_indicator.css';
+@import './login.css';
+@import './launch.css';
+@import './favorite.css';
+@import './search.css';
+@import './star.css';
+@import './dots_horizontal.css';
+@import './dots_vertical.css';
+@import './close.css';
+@import './close_circle.css';
+@import './history.css';
+@import './label.css';
+@import './print.css';
+@import './reorder.css';
+@import './location_pin.css';
+@import './loader_clock_ticking.css';
+@import './loader_dots_bouncing.css';
+@import './loader_dots_blinking.css';
+@import './loader_circle_spinning.css';
+
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+
+/* VARIABLES */
+:root {
+  --icon-size: 128px;
+  --icon-transition-time: .2s;
+  --cursor: pointer;
+  --color-primary: #5490f7;
+  --color-secondary: #d2e4fc;
+}
+
+.neat-icon {
+  position: relative;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  cursor: var(--cursor);
+  overflow: hidden;
+  font-family: 'Inconsolata', monospace;
+}
+
+.neat-icon div,
+.neat-icon div::before,
+.neat-icon div::after {
+  position: absolute;
+  transition: all var(--icon-transition-time) ease-out;
+  will-change: all;
+  box-sizing: border-box;
+}
+
+.neat-icon.ni-init--filled div,
+.neat-icon.ni-init--outline div,
+.neat-icon.ni-init--duotone div {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  background: var(--color-primary);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}

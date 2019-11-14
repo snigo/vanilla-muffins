@@ -1,0 +1,77 @@
+/* ALL */
+
+.neat-icon.ni-launch--filled div:nth-child(1),
+.neat-icon.ni-launch--outline div:nth-child(1),
+.neat-icon.ni-launch--duotone div:nth-child(1) {
+  top: 6.25%;
+  left: 28.125%;
+  width: 62.5%;
+  height: 6.25%;
+  transform-origin: center right;
+  transform: rotate(-45deg);
+  background: var(--color-primary);
+  border: none;
+}
+
+.neat-icon.ni-launch--filled div:nth-child(2),
+.neat-icon.ni-launch--outline div:nth-child(2),
+.neat-icon.ni-launch--duotone div:nth-child(2) {
+  top: 6.25%;
+  left: 62.5%;
+  width: 31.25%;
+  height: 6.25%;
+  background: var(--color-primary);
+  border: none;
+}
+
+.neat-icon.ni-launch--filled div:nth-child(3),
+.neat-icon.ni-launch--outline div:nth-child(3),
+.neat-icon.ni-launch--duotone div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 87.5%;
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-top-width: 0;
+  border-right-width: 0;
+  border-radius: calc(var(--icon-size) / 16);
+  transform: translate(-50%, -50%);
+}
+
+.neat-icon.ni-launch--filled div:nth-child(3)::before,
+.neat-icon.ni-launch--outline div:nth-child(3)::before,
+.neat-icon.ni-launch--duotone div:nth-child(3)::before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 37.5%;
+  height: calc(var(--icon-size) / 16);
+  background: var(--color-primary);
+}
+
+.neat-icon.ni-launch--filled div:nth-child(3)::after,
+.neat-icon.ni-launch--outline div:nth-child(3)::after,
+.neat-icon.ni-launch--duotone div:nth-child(3)::after {
+  content: '';
+  top: calc(100% - var(--icon-size) / 16);
+  left: calc(62.5% - var(--icon-size) / 16);
+  width: 37.5%;
+  height: calc(var(--icon-size) / 16);
+  background: var(--color-primary);
+  transform-origin: bottom right;
+  transform: rotate(90deg);
+}
+
+.neat-icon.ni-launch--filled div:nth-child(4),
+.neat-icon.ni-launch--outline div:nth-child(4),
+.neat-icon.ni-launch--duotone div:nth-child(4) {
+  top: 6.25%;
+  left: 56.25%;
+  width: 31.25%;
+  height: 6.25%;
+  background: var(--color-primary);
+  border: none;
+  transform-origin: top right;
+  transform: rotate(-90deg);
+}

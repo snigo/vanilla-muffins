@@ -1,0 +1,93 @@
+/* ALL */
+
+.neat-icon.ni-dialpad--filled div:nth-child(1),
+.neat-icon.ni-dialpad--outline div:nth-child(1),
+.neat-icon.ni-dialpad--duotone div:nth-child(1) {
+  top: 6.25%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+}
+
+.neat-icon.ni-dialpad--filled div:nth-child(1)::before,
+.neat-icon.ni-dialpad--outline div:nth-child(1)::before,
+.neat-icon.ni-dialpad--duotone div:nth-child(1)::before,
+.neat-icon.ni-dialpad--filled div:nth-child(2)::before,
+.neat-icon.ni-dialpad--outline div:nth-child(2)::before,
+.neat-icon.ni-dialpad--duotone div:nth-child(2)::before,
+.neat-icon.ni-dialpad--filled div:nth-child(3)::before,
+.neat-icon.ni-dialpad--outline div:nth-child(3)::before,
+.neat-icon.ni-dialpad--duotone div:nth-child(3)::before {
+  content: '';
+  top: 0;
+  left: -150%;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+}
+
+.neat-icon.ni-dialpad--filled div:nth-child(1)::after,
+.neat-icon.ni-dialpad--outline div:nth-child(1)::after,
+.neat-icon.ni-dialpad--duotone div:nth-child(1)::after,
+.neat-icon.ni-dialpad--filled div:nth-child(2)::after,
+.neat-icon.ni-dialpad--outline div:nth-child(2)::after,
+.neat-icon.ni-dialpad--duotone div:nth-child(2)::after,
+.neat-icon.ni-dialpad--filled div:nth-child(3)::after,
+.neat-icon.ni-dialpad--outline div:nth-child(3)::after,
+.neat-icon.ni-dialpad--duotone div:nth-child(3)::after {
+  content: '';
+  top: 0;
+  left: 250%;
+  width: 100%;
+  height: 100%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+}
+
+.neat-icon.ni-dialpad--filled div:nth-child(2),
+.neat-icon.ni-dialpad--outline div:nth-child(2),
+.neat-icon.ni-dialpad--duotone div:nth-child(2) {
+  top: 31.25%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+}
+
+.neat-icon.ni-dialpad--filled div:nth-child(3),
+.neat-icon.ni-dialpad--outline div:nth-child(3),
+.neat-icon.ni-dialpad--duotone div:nth-child(3) {
+  top: 56.25%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+}
+
+.neat-icon.ni-dialpad--filled div:nth-child(4),
+.neat-icon.ni-dialpad--outline div:nth-child(4),
+.neat-icon.ni-dialpad--duotone div:nth-child(4) {
+  top: 81.25%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  border: none;
+  border-radius: 50%;
+}

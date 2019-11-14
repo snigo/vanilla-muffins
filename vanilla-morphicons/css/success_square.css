@@ -1,0 +1,103 @@
+/* OUTLINE */
+
+.neat-icon.ni-success-square--filled div:nth-child(1) {
+  top: 65.75%;
+  left: 18.75%;
+  width: 25%;
+  height: 6.25%;
+  transform-origin: bottom right;
+  transform: rotate(45deg);
+  background: white;
+  border: none;
+  z-index: 2;
+}
+
+.neat-icon.ni-success-square--filled div:nth-child(2) {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  background: transparent;
+  border-radius: 0;
+  transform: translate(-50%, -50%);
+}
+
+.neat-icon.ni-success-square--filled div:nth-child(3),
+.neat-icon.ni-success-square--outline div:nth-child(3),
+.neat-icon.ni-success-square--duotone div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 87.5%;
+  transform: translate(-50%, -50%);
+  background: var(--color-primary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 0;
+  z-index: 1;
+}
+
+.neat-icon.ni-success-square--filled div:nth-child(4) {
+  top: 65.75%;
+  left: 43.75%;
+  width: 50%;
+  height: 6.25%;
+  transform-origin: bottom left;
+  transform: rotate(-45deg);
+  background: white;
+  border: none;
+  z-index: 2;
+}
+
+/* OUTLINE */
+
+.neat-icon.ni-success-square--outline div:nth-child(1),
+.neat-icon.ni-success-square--duotone div:nth-child(1) {
+  top: 65.75%;
+  left: 18.75%;
+  width: 25%;
+  height: 6.25%;
+  transform-origin: bottom right;
+  transform: rotate(45deg);
+  background: var(--color-primary);
+  border: none;
+  z-index: 2;
+}
+
+.neat-icon.ni-success-square--outline div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 87.5%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 0;
+  z-index: 1;
+}
+
+.neat-icon.ni-success-square--outline div:nth-child(4),
+.neat-icon.ni-success-square--duotone div:nth-child(4) {
+  top: 65.75%;
+  left: 43.75%;
+  width: 50%;
+  height: 6.25%;
+  transform-origin: bottom left;
+  transform: rotate(-45deg);
+  background: var(--color-primary);
+  border: none;
+  z-index: 2;
+}
+
+/* DUOTONE */
+
+.neat-icon.ni-success-square--duotone div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 87.5%;
+  transform: translate(-50%, -50%);
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 0;
+  z-index: 1;
+}

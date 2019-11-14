@@ -1,0 +1,98 @@
+/* FILLED */
+
+.neat-icon.ni-email--filled div:nth-child(1) {
+  top: 18.75%;
+  left: 12.5%;
+  width: 50%;
+  height: calc(var(--icon-size) / 16);
+  background: white;
+  transform-origin: center left;
+  transform: rotate(38deg);
+  z-index: 2;
+}
+
+.neat-icon.ni-email--filled div:nth-child(2),
+.neat-icon.ni-email--outline div:nth-child(2),
+.neat-icon.ni-email--duotone div:nth-child(2) {
+  top: 18.75%;
+  left: 37.5%;
+  width: 50%;
+  height: calc(var(--icon-size) / 16);
+  background: white;
+  transform-origin: center right;
+  transform: rotate(-38deg);
+  z-index: 2;
+}
+
+.neat-icon.ni-email--filled div:nth-child(3),
+.neat-icon.ni-email--outline div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 62.5%;
+  transform: translate(-50%, -50%);
+  background: var(--color-primary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: calc(var(--icon-size) / 16);
+}
+
+.neat-icon.ni-email--filled div:nth-child(4),
+.neat-icon.ni-email--outline div:nth-child(4),
+.neat-icon.ni-email--duotone div:nth-child(4) {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  background: transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* OUTLINE */
+
+.neat-icon.ni-email--outline div:nth-child(1),
+.neat-icon.ni-email--duotone div:nth-child(1) {
+  top: 18.75%;
+  left: 12.5%;
+  width: 50%;
+  height: calc(var(--icon-size) / 16);
+  background: var(--color-primary);
+  transform-origin: center left;
+  transform: rotate(38deg);
+  z-index: 2;
+}
+
+.neat-icon.ni-email--outline div:nth-child(2),
+.neat-icon.ni-email--duotone div:nth-child(2) {
+  top: 18.75%;
+  left: 37.5%;
+  width: 50%;
+  height: calc(var(--icon-size) / 16);
+  background: var(--color-primary);
+  transform-origin: center right;
+  transform: rotate(-38deg);
+  z-index: 2;
+}
+
+.neat-icon.ni-email--outline div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 62.5%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: calc(var(--icon-size) / 16);
+}
+
+/* DUOTONE */
+.neat-icon.ni-email--duotone div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 87.5%;
+  height: 62.5%;
+  transform: translate(-50%, -50%);
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: calc(var(--icon-size) / 16);
+}

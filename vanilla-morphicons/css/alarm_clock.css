@@ -1,0 +1,98 @@
+/* Minute arrow */
+.neat-icon.ni-alarm-clock--filled div:nth-child(1),
+.neat-icon.ni-alarm-clock--outline div:nth-child(1),
+.neat-icon.ni-alarm-clock--duotone div:nth-child(1) {
+  top: 55%;
+  left: 50%;
+  width: 28%;
+  height: calc(var(--icon-size) / 16);;
+  background: var(--color-primary);
+  border: none;
+  border-radius: 0;
+  transform-origin: center left;
+  transform: translateY(25%) rotate(-90deg);
+  z-index: 2;
+}
+
+/* Empty dot */
+.neat-icon.ni-alarm-clock--filled div:nth-child(2),
+.neat-icon.ni-alarm-clock--outline div:nth-child(2),
+.neat-icon.ni-alarm-clock--duotone div:nth-child(2) {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  background: transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Circle body */
+.neat-icon.ni-alarm-clock--filled div:nth-child(3),
+.neat-icon.ni-alarm-clock--outline div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 75%;
+  height: 75%;
+  transform: translate(-50%, -45%);
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Left bell */
+.neat-icon.ni-alarm-clock--filled div:nth-child(3)::before,
+.neat-icon.ni-alarm-clock--outline div:nth-child(3)::before,
+.neat-icon.ni-alarm-clock--duotone div:nth-child(3)::before {
+  content: '';
+  top: calc(var(--icon-size) / -12);
+  left: calc(var(--icon-size) / -12);
+  width: 43.75%;
+  height: calc(var(--icon-size) / 16);
+  background: var(--color-primary);
+  transform: rotate(-37deg);
+}
+
+/* Right bell */
+.neat-icon.ni-alarm-clock--filled div:nth-child(3)::after,
+.neat-icon.ni-alarm-clock--outline div:nth-child(3)::after,
+.neat-icon.ni-alarm-clock--duotone div:nth-child(3)::after {
+  content: '';
+  top: calc(var(--icon-size) / -12);
+  right: calc(var(--icon-size) / -12);
+  width: 43.75%;
+  height: calc(var(--icon-size) / 16);
+  background: var(--color-primary);
+  transform: rotate(37deg);
+}
+
+/* Hour arrow */
+.neat-icon.ni-alarm-clock--filled div:nth-child(4),
+.neat-icon.ni-alarm-clock--outline div:nth-child(4),
+.neat-icon.ni-alarm-clock--duotone div:nth-child(4) {
+  top: 55%;
+  left: 50%;
+  width: 21.5%;
+  height: calc(var(--icon-size) / 16);;
+  background: var(--color-primary);
+  border: none;
+  border-radius: 0;
+  transform-origin: center left;
+  transform: translateX(-7%) rotate(24deg);
+  z-index: 2;
+}
+
+/* DUOTONE */
+
+.neat-icon.ni-alarm-clock--duotone div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 75%;
+  height: 75%;
+  transform: translate(-50%, -45%);
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 50%;
+  z-index: 1;
+}

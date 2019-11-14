@@ -1,0 +1,42 @@
+/* ALL */
+
+.neat-icon.ni-arrow-square-left--filled div:nth-child(1),
+.neat-icon.ni-arrow-square-left--outline div:nth-child(1),
+.neat-icon.ni-arrow-square-left--duotone div:nth-child(1),
+.neat-icon.ni-arrow-square-left--filled div:nth-child(4),
+.neat-icon.ni-arrow-square-left--outline div:nth-child(4),
+.neat-icon.ni-arrow-square-left--duotone div:nth-child(4) {
+  top: 50%;
+  left: 18.75%;
+  width: 56.25%;
+  height: 6.25%;
+  transform: translateY(-50%);
+  background: var(--color-primary);
+  border: none;
+}
+
+.neat-icon.ni-arrow-square-left--filled div:nth-child(2),
+.neat-icon.ni-arrow-square-left--outline div:nth-child(2),
+.neat-icon.ni-arrow-square-left--duotone div:nth-child(2) {
+  top: 50%;
+  left: 18.75%;
+  width: 50%;
+  height: 6.25%;
+  transform-origin: bottom left;
+  transform: translateY(-30%) rotate(-45deg);
+  background: var(--color-primary);
+  border: none;
+}
+
+.neat-icon.ni-arrow-square-left--filled div:nth-child(3),
+.neat-icon.ni-arrow-square-left--outline div:nth-child(3),
+.neat-icon.ni-arrow-square-left--duotone div:nth-child(3) {
+  top: 50%;
+  left: 18.75%;
+  width: 50%;
+  height: 6.25%;
+  transform-origin: top left;
+  transform: translateY(-70%) rotate(45deg);
+  background: var(--color-primary);
+  border: none;
+}

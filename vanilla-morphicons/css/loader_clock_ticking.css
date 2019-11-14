@@ -1,0 +1,93 @@
+/* Minute arrow */
+.neat-icon.ni-loader-clock-ticking--filled div:nth-child(1),
+.neat-icon.ni-loader-clock-ticking--outline div:nth-child(1),
+.neat-icon.ni-loader-clock-ticking--duotone div:nth-child(1) {
+  top: 46.875%;
+  left: 46.875%;
+  width: 28%;
+  height: calc(var(--icon-size) / 16);
+  background: var(--color-primary);
+  border: none;
+  border-top-left-radius: calc(var(--icon-size) / 16);
+  border-bottom-left-radius: calc(var(--icon-size) / 16);
+  transform-origin: calc(var(--icon-size) / 32) calc(var(--icon-size) / 32);
+  transform: translate(calc(var(--icon-size) / -32), -50%);
+  z-index: 2;
+  animation: fast-arrow 2s linear infinite;
+}
+
+/* Empty dot */
+.neat-icon.ni-loader-clock-ticking--filled div:nth-child(2),
+.neat-icon.ni-loader-clock-ticking--outline div:nth-child(2),
+.neat-icon.ni-loader-clock-ticking--duotone div:nth-child(2) {
+  top: 50%;
+  left: 50%;
+  width: 12.5%;
+  height: 12.5%;
+  background: transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Circle body */
+.neat-icon.ni-loader-clock-ticking--filled div:nth-child(3),
+.neat-icon.ni-loader-clock-ticking--outline div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 75%;
+  height: 75%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Hour arrow */
+.neat-icon.ni-loader-clock-ticking--filled div:nth-child(4),
+.neat-icon.ni-loader-clock-ticking--outline div:nth-child(4),
+.neat-icon.ni-loader-clock-ticking--duotone div:nth-child(4) {
+  top: 46.875%;
+  left: 46.875%;
+  width: 21.5%;
+  height: calc(var(--icon-size) / 16);;
+  background: var(--color-primary);
+  border: none;
+  border-top-left-radius: calc(var(--icon-size) / 16);
+  border-bottom-left-radius: calc(var(--icon-size) / 16);
+  transform-origin: calc(var(--icon-size) / 32) calc(var(--icon-size) / 32);
+  transform: translate(calc(var(--icon-size) / -32), -50%) rotate(24deg);
+  z-index: 2;
+  animation: slow-arrow 8s linear infinite;
+}
+
+/* DUOTONE */
+
+.neat-icon.ni-loader-clock-ticking--duotone div:nth-child(3) {
+  top: 50%;
+  left: 50%;
+  width: 75%;
+  height: 75%;
+  transform: translate(-50%, -50%);
+  background: var(--color-secondary);
+  border: calc(var(--icon-size) / 16) solid var(--color-primary);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+@keyframes slow-arrow {
+  0% {
+    transform:rotate(0deg)
+  }
+  100% {
+    transform:rotate(360deg)
+  }
+}
+@keyframes fast-arrow {
+  0% {
+    transform:rotate(0deg)
+  }
+  100% {
+    transform:rotate(360deg)
+  }
+}

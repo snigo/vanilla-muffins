@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Product Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="normalize.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+  <div class="app-container">
+    <header class="fixed">
+      <div class="header-content-wrapper">
+        <div class="brand-logo" tabindex="1" onclick="window.location.href='#'" id="headerLogo">
+          <div class="brand-glyph">
+            <div id="brandGryphMainTop"></div>
+            <div id="brandGryphMainBottom"></div>
+          </div>
+          <h1 id="brandLogoMain">Sunrise</h1>
+        </div>
+        <nav>
+          <ul class="header-nav">
+            <li><a href="#brandClientsAnchor">Our clients</a></li>
+            <li><a href="#brandFeaturesAnchor">Features</a></li>
+            <li><a href="#brandNumbersAnchor">Case studies</a></li>
+            <li><a href="#brandSignupAnchor" onclick="document.getElementById('email').focus()"><em>Request free trial</em></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="brandSlide">
+        <div class="slide-container">
+          <h1 id="slideTitle">Our product is very professional</h1>
+          <h3 id="slideSubtitle">Create your own robots with us!</h3>
+          <div id="slideIcons">
+            <span class="nocss">Available on:</span>
+            <div class="inline-icons">
+              <ul>
+                <li>
+                  <a href="#">
+                    <span class="nocss">App Store</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" version="1.1" width="24px" height="24px">
+                      <g id="surface1">
+                      <path style="fill:white;" d="M 25 2 C 12.316406 2 2 12.316406 2 25 C 2 37.683594 12.316406 48 25 48 C 37.683594 48 48 37.683594 48 25 C 48 12.316406 37.683594 2 25 2 Z M 21.40625 15.824219 C 21.722656 15.285156 22.414063 15.105469 22.953125 15.421875 L 23.957031 16.007813 C 24.496094 16.324219 24.679688 17.015625 24.363281 17.558594 L 23.367188 19.261719 L 20.410156 17.53125 Z M 10.328125 23.324219 L 16.472656 23.324219 L 14.515625 26.632813 L 10.328125 26.632813 Z M 11.808594 36.074219 C 11.734375 36.144531 11.625 36.15625 11.535156 36.105469 C 11.449219 36.054688 11.40625 35.953125 11.433594 35.855469 L 12.863281 30.445313 L 15.820313 32.175781 Z M 13.234375 29.804688 L 20.167969 17.945313 L 23.125 19.675781 L 16.191406 31.535156 Z M 19.589844 26.632813 L 21.425781 23.328125 L 28.511719 23.328125 L 30.347656 26.632813 Z M 23.183594 13.019531 C 22.867188 12.480469 23.054688 11.785156 23.59375 11.472656 L 24.511719 10.9375 C 25.050781 10.625 25.742188 10.808594 26.058594 11.347656 L 33.898438 24.84375 L 31.023438 26.515625 Z M 31.34375 27.070313 L 34.21875 25.398438 L 35.882813 28.261719 L 33.007813 29.929688 Z M 37.394531 35.984375 C 37.328125 36.078125 37.160156 36 37.109375 35.921875 C 36.976563 35.710938 37.09375 35.421875 36.671875 34.777344 C 35.894531 33.59375 34.867188 33.828125 33.875 32.160156 C 33.699219 31.867188 33.105469 30.523438 33.875 30.066406 C 34.285156 29.820313 34.980469 29.40625 35.449219 29.144531 C 36.238281 28.695313 36.96875 29.636719 37.371094 30.226563 C 38.238281 31.492188 38.589844 34.335938 37.394531 35.984375 Z M 39.628906 26.632813 L 35.507813 26.632813 L 33.707031 23.328125 L 39.628906 23.328125 Z "/>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="nocss">Android Store</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" version="1.1" width="24px" height="24px">
+                      <g id="surface1">
+                      <path style="fill:white;" d="M 16.28125 0.03125 C 16.152344 0.0546875 16.019531 0.078125 15.90625 0.15625 C 15.449219 0.464844 15.347656 1.105469 15.65625 1.5625 L 17.8125 4.78125 C 14.480469 6.546875 11.996094 9.480469 11.1875 13 L 38.8125 13 C 38.003906 9.480469 35.519531 6.546875 32.1875 4.78125 L 34.34375 1.5625 C 34.652344 1.105469 34.550781 0.464844 34.09375 0.15625 C 33.632813 -0.152344 32.996094 -0.0195313 32.6875 0.4375 L 30.3125 3.9375 C 28.664063 3.335938 26.875 3 25 3 C 23.125 3 21.335938 3.335938 19.6875 3.9375 L 17.3125 0.4375 C 17.082031 0.09375 16.664063 -0.0429688 16.28125 0.03125 Z M 19.5 8 C 20.328125 8 21 8.671875 21 9.5 C 21 10.332031 20.328125 11 19.5 11 C 18.667969 11 18 10.332031 18 9.5 C 18 8.671875 18.667969 8 19.5 8 Z M 30.5 8 C 31.332031 8 32 8.671875 32 9.5 C 32 10.332031 31.332031 11 30.5 11 C 29.671875 11 29 10.332031 29 9.5 C 29 8.671875 29.671875 8 30.5 8 Z M 8 15 C 6.34375 15 5 16.34375 5 18 L 5 32 C 5 33.65625 6.34375 35 8 35 C 8.351563 35 8.6875 34.925781 9 34.8125 L 9 15.1875 C 8.6875 15.074219 8.351563 15 8 15 Z M 11 15 L 11 37 C 11 38.652344 12.347656 40 14 40 L 36 40 C 37.652344 40 39 38.652344 39 37 L 39 15 Z M 42 15 C 41.648438 15 41.3125 15.074219 41 15.1875 L 41 34.8125 C 41.3125 34.921875 41.648438 35 42 35 C 43.65625 35 45 33.65625 45 32 L 45 18 C 45 16.34375 43.65625 15 42 15 Z M 15 42 L 15 46 C 15 48.207031 16.792969 50 19 50 C 21.207031 50 23 48.207031 23 46 L 23 42 Z M 27 42 L 27 46 C 27 48.207031 28.792969 50 31 50 C 33.207031 50 35 48.207031 35 46 L 35 42 Z "/>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <span class="nocss">Microsoft Store</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="24px" height="24px">
+                      <path style="fill:white;" d="M 18.652344 3.0449219 C 14.379795 3.0802246 11.595937 5.0308594 11.414062 5.1621094 C 11.219062 5.3031094 11.081391 5.5101406 11.025391 5.7441406 L 7.7871094 19.517578 C 7.7081094 19.856578 7.8105937 20.212031 8.0585938 20.457031 C 8.3065937 20.702031 8.6649531 20.80075 9.0019531 20.71875 C 12.409953 19.64175 17.581625 19.490031 22.890625 22.457031 C 23.040625 22.541031 23.207953 22.583984 23.376953 22.583984 C 23.510953 22.583984 23.645484 22.557906 23.771484 22.503906 C 24.056484 22.380906 24.269703 22.131078 24.345703 21.830078 L 28.142578 6.9472656 C 28.249578 6.5292656 28.076891 6.0894219 27.712891 5.8574219 C 24.316141 3.6917969 21.215873 3.0237402 18.652344 3.0449219 z M 30.765625 8.1992188 C 30.609875 8.1832188 30.452234 8.2046719 30.302734 8.2636719 C 30.001734 8.3806719 29.776266 8.6342656 29.697266 8.9472656 L 25.923828 23.740234 C 25.821828 24.138234 25.974594 24.558828 26.308594 24.798828 C 29.739594 27.264828 33.206719 28 36.136719 28 C 38.978719 28 41.315094 27.309547 42.621094 26.810547 C 42.931094 26.692547 43.162281 26.428469 43.238281 26.105469 L 46.972656 10.228516 C 47.067656 9.8235156 46.901641 9.4029219 46.556641 9.1699219 C 46.211641 8.9389219 45.756016 8.9445 45.416016 9.1875 C 45.164016 9.3665 39.224937 13.652469 31.210938 8.3554688 C 31.075437 8.2674687 30.921375 8.2152187 30.765625 8.1992188 z M 13.603516 22.025391 C 10.846516 22.095516 8.5932031 22.842813 7.3457031 23.320312 C 7.0347031 23.438312 6.8045156 23.702391 6.7285156 24.025391 L 3.0253906 39.771484 C 3.0083906 39.846484 3 39.967922 3 40.044922 C 3 40.418922 3.2099687 40.759641 3.5429688 40.931641 C 3.8719688 41.101641 4.5820313 40.857422 4.5820312 40.857422 C 4.5820312 40.857422 10.454406 36.499578 18.066406 41.267578 C 18.222406 41.359578 18.397219 41.40625 18.574219 41.40625 C 18.704219 41.40625 18.835984 41.382078 18.958984 41.330078 C 19.249984 41.209078 19.467922 40.959297 19.544922 40.654297 L 23.3125 25.880859 C 23.4185 25.461859 23.246766 25.024016 22.884766 24.791016 C 19.622266 22.562016 16.360516 21.955266 13.603516 22.025391 z M 25.931641 27.083984 C 25.777516 27.070984 25.620156 27.094797 25.472656 27.154297 C 25.177656 27.274297 24.956906 27.525984 24.878906 27.833984 L 21.107422 42.617188 C 21.003422 43.020187 21.162906 43.444594 21.503906 43.683594 C 25.198906 46.265594 28.586516 47 31.228516 47 C 32.090516 47 32.8745 46.914828 33.5625 46.798828 C 36.6205 46.284828 38.508891 44.935906 38.587891 44.878906 C 38.798891 44.725906 38.940375 44.451641 38.984375 44.181641 L 42.177734 30.613281 C 42.256734 30.274281 42.15525 29.918828 41.90625 29.673828 C 41.65725 29.428828 41.299844 29.329109 40.964844 29.412109 C 35.856844 30.677109 30.785094 29.951469 26.371094 27.230469 C 26.236094 27.146969 26.085766 27.096984 25.931641 27.083984 z"/>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="slideCTA">
+            <button class="primary-btn" onclick="window.location.href='#brandSignupAnchor'">Request free trial</button>
+            <p id="slideCTAAux" class="btn-aux">Free 14 days trial · Cancel any time · No credit card required</p>
+          </div>
+        </div>
+      </section>
+      <section id="brandClients">
+          <div id="brandClientsAnchor" class="section-anchor"></div>
+        <h2 class="section-heading">Say hello to some of our clients</h2>
+        <div class="slider-container">
+          <ul class="slider-list">
+            <li class="sliding-icon"><a href="#" class="nocss"><span>Nike</span></a></li>
+            <li class="sliding-icon"><a href="#" class="nocss"><span>Penn State</span></a></li>
+            <li class="sliding-icon"><a href="#" class="nocss"><span>Public Storage</span></a></li>
+            <li class="sliding-icon"><a href="#" class="nocss"><span>Superdry</span></a></li>
+            <li class="sliding-icon"><a href="#" class="nocss"><span>Wyndham</span></a></li>
+            <li class="sliding-icon"><a href="#" class="nocss"><span>Accel</span></a></li>
+            <li class="sliding-icon"><a href="#" class="nocss"><span>Marriott</span></a></li>
+            <li class="sliding-icon"><a href="#" class="nocss"><span>Coca Cola</span></a></li>
+          </ul>
+        </div>
+      </section>
+      <section id="brandFeatures">
+        <div id="brandFeaturesAnchor" class="section-anchor"></div>
+        <h2 class="section-heading">Brand features heading</h2>
+        <div class="grid-container">
+          <div class="feature-box col-2" id="dashboardFeature">
+            <h3 class="feature-box-heading">Dashboard management</h3>
+            <p class="feature-box-description">Manage your content for multiple locations with just a few clicks.</p>
+            <button class="feature-btn">Find out more</button>
+          </div>
+          <div class="feature-box col-2" id="widgetsFeature">
+            <h3 class="feature-box-heading">Cool widgets</h3>
+            <p class="feature-box-description">From documents and menu boards to video streams and social media feeds.</p>
+            <button class="feature-btn">See it in action</button>
+          </div>
+          <div class="feature-box col-1" id="editorFeature">
+            <h3 class="feature-box-heading">Power editor</h3>
+            <p class="feature-box-description">Create engaging content with our template designer. No effort or  design skills needed.</p>
+            <button class="feature-btn">Give it a try</button>
+          </div>
+        </div>
+        <div class="center">
+          <button class="secondary-btn">See all features</button>
+        </div>
+      </section>
+      <section id="brandNumbers">
+        <div id="brandNumbersAnchor" class="section-anchor"></div>
+        <h2 class="section-heading">Sunrise in numbers</h2>
+        <div class="grid-container">
+          <div class="feature-box col-3" id="feature1">
+            <h3 class="feature-box-heading">+500% more views</h3>
+            <p class="feature-box-description">Digital displays on Apple TV software capture more views than static advertising.</p>
+          </div>
+          <div class="feature-box col-3" id="feature2">
+            <h3 class="feature-box-heading">+115% sales</h3>
+            <p class="feature-box-description">Apple TV digital signage software improves communications with customers.</p>
+          </div>
+          <div class="feature-box col-3" id="feature3">
+            <h3 class="feature-box-heading">+60% brand awareness</h3>
+            <p class="feature-box-description">Android digital signage provides 60% more brand awareness.</p>
+          </div>
+        </div>
+      </section>
+      <section id="brandSignup">
+        <div id="brandSignupAnchor" class="section-anchor"></div>
+        <h2 class="section-heading">We will make some things in your life easier</h2>
+        <form action='getUserInfo'>
+          <p class="form-description">Sign up for free trial and get unbelievable discount!</p>
+          <div class="input-inline">
+            <label for="email" class="nocss">Email address:</label>
+            <input type="email" id="email" placeholder="Enter your email..."/>
+            <button class="primary-btn" type="submit">Request free trial</button>
+          </div> 
+          <p class="btn-aux" id="btnAuxSignup">Free 14 days trial · Cancel any time · No credit card required</p>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-box">
+        <div class="brand-logo" id="footerLogo">
+          <div class="brand-glyph">
+            <div id="brandGryphMainTop"></div>
+            <div id="brandGryphMainBottom"></div>
+          </div>
+          <h1 id="brandLogoMain">Sunrise</h1>
+        </div>
+        <div class="footer-box-row">
+          <p>Brown fox jumps</p>
+          <p>2018 Sunrise Inc. Contact us: <a href="tel:1-888-888-8888">1-888-888-8888</a></p>
+        </div>
+        <div class="inline-icons footer-box-row">
+          <ul>
+            <li><a href="#"><span class="nocss">Find us on Facebook</span></a></li>
+            <li><a href="#"><span class="nocss">Find us on Twitter</span></a></li>
+            <li><a href="#"><span class="nocss">Find us on Instagram</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-box">
+        <div class="footer-nav">
+          <ul class="grid-container grid-nav">
+            <li class="col-2"><a href="#brandClientsAnchor">Our clients</a></li>
+            <li class="col-2"><a href="#brandFeaturesAnchor">Features</a></li>
+            <li class="col-2"><a href="#brandNumbersAnchor">Case studies</a></li>
+            <li class="col-2"><a href="#brandSignupAnchor">Request free trial</a></li>
+            <li class="col-2"><a href="#">Privacy Policy</a></li>
+            <li class="col-2"><a href="#">Terms Of Use</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

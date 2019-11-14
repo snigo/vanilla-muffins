@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+  color: #3a3a3f;
+  background: radial-gradient(#5490f7c2 8%, transparent 8%), white;
+  background-position: 0 0, 15px 15px;
+  background-size:15px 15px;
+  font-family: 'Inconsolata', monospace;
+  padding-top: 4.5em;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 12px;
+  background: white;
+  padding: 2.5em 1.5em;
+  width: 100%;
+  max-width: 680px;
+  box-shadow: 0 4px 0 #5490f7;
+  margin-bottom: 4.5em;
+}
+
+.input-column {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: block;
+  font-size: .75em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  color: #5490f7;
+}
+
+
+select {
+  margin-bottom: 2em;
+}
+
+.input-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  align-items: center;
+}
+
+.radio-label {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: none;
+  color: #3a3a3f;
+}
+
+.neat-icon {
+  background: white;
+  /* box-shadow: 1px 1px 0 salmon, -1px -1px 0 salmon; */
+}

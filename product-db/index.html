@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product Database Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class="app-container" id="app">
+        <header><h1>Product Database</h1></header>
+        <div class="search-bar">
+            <input type="search" name="db" id="searchInput" placeholder="Search products..." />
+            <button id="searchBtn" type="submit">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" fill="white"/>
+                </svg>
+            </button>
+        </div>
+        <div class="product-list">
+            <h3 class="table-heading" id="mainTableHeading">All products</h3>
+            <span class="aux-link"><a href="javascript:void(0)" id="mainTableShowAllBtn">Show all products</a></span>
+            <table id="mainTable">
+                <thead id="mainTableHead"></thead>
+                <tbody id="mainTableBody"></tbody>
+                <tfoot>
+                    <tr>
+                        <td class="table-control-container" id="mainTableControlBar">
+                            <div class="loader" id="mainTableLoader"></div>
+                            <div class="table-control">
+                                <div>
+                                    <span>Items per page: </span>
+                                    <select id="mainTableMaxItemsSelect" class="table-page-select">
+                                        <option value="10" selected>10</option>
+                                        <option value="25">25</option>
+                                        <option value="50">50</option>
+                                        <option value="100">100</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <span id="mainTableItemsVisible"></span>
+                                    <span>of</span>
+                                    <span id="mainTableItemsTotal"></span>
+                                </div>
+                                <div>
+                                    <button class="table-control-btn" id="mainTablePagePrevBtn">
+                                        <span class="icon-small">
+                                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+                                                <path d="M15.41,16.59L10.83,12l4.58-4.59L14,6l-6,6l6,6L15.41,16.59z" fill="#9fb8c8"/>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                    <button class="table-control-btn" id="mainTablePageNextBtn">
+                                        <span class="icon-small">
+                                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+                                                <path d="M8.59,16.59L13.17,12L8.59,7.41L10,6l6,6l-6,6L8.59,16.59z" fill="#9fb8c8"/>
+                                            </svg>
+                                        </span>
+                                    </button>
+                                </div>
+                                <div class="table-control-message" id="mainTableControlMessage">
+                                    <span>Loading...</span>  
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+    <div class="modal-overlay" id="modalOverlay"></div>
+    <script src="mock_data.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
